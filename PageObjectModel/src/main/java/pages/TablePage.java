@@ -62,6 +62,5 @@ public class TablePage {
 		}
 		WebElement office = driver
 				.findElement(By.xpath("//table[@id='dtBasicExample']//tbody//tr[" + index + "]//td[3]"));
-		System.out.println("Office: " + office.getText());
 	}
 }
